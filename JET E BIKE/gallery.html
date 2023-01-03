@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <link rel="icon" href="Images/main.jpg">
+  <link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class=
+    "closebtn"
+
+    onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="navigation.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  
+  <span style="font-size:30px;cursor:
+  pointer"
+
+  onclick="openNav()">&#9776;
+  Open
+  </span>
+  <script>
+    function openNav() 
+    {
+     document.getElementById("myNav")
+     .style.width = "40%";
+    }
+
+    function closeNav() 
+    {
+     document.getElementById("myNav")
+     .style.width = "0%";
+    }
+    mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+  </script>
+  <center>
+    <div class="gallery">
+      <h1 class="h1" align="center">Etron Images</h1>
+      <div class="etron">
+        <a href="Images\etron1.jpg"><img src="Images\etron1.jpg" class="img-bike1"></a>
+        <a href="Images\etron2.jpg"><img src="Images\etron2.jpg" class="img-bike2"></a>
+        <a href="Images\etron3.jpg"><img src="Images\etron3.jpg" class="img-bike3"></a>
+        <a href="Images\etron4.jpg"><img src="Images\etron4.jpg" class="img-bike4"></a>
+        <a href="Images\etron5.jpg"><img src="Images\etron5.jpg" class="img-bike5"></a>
+        <a href="Images\etron6.jpg"><img src="Images\etron6.jpg" class="img-bike6"></a>
+        <a href="Images\etron7.jpg"><img src="Images\etron7.jpg" class="img-bike7"></a>
+        <a href="Images\etron8.jpg"><img src="Images\etron8.jpg" class="img-bike8"></a>
+      </div>
+      <hr>
+    </div>
+    <div class="gallery">
+      <h1 class="h1" align="center">Etron+ Images</h1>
+      <div class="etron+">
+        <a href="Images\etron+1.jpg"><img src="Images\etron+1.jpg" class="img-bike1"></a>
+        <a href="Images\etron+2.jpg"><img src="Images\etron+2.jpg" class="img-bike2"></a>
+        <a href="Images\etron+3.jpg"><img src="Images\etron+3.jpg" class="img-bike3"></a>
+        <a href="Images\etron+4.jpg"><img src="Images\etron+4.jpg" class="img-bike4"></a>
+        <a href="Images\etron+5.jpg"><img src="Images\etron+5.jpg" class="img-bike5"></a>
+        <a href="Images\etron+6.jpg"><img src="Images\etron+6.jpg" class="img-bike6"></a>
+        <a href="Images\etron+7.jpg"><img src="Images\etron+7.jpg" class="img-bike7"></a>
+        <a href="Images\etron+8.jpg"><img src="Images\etron+8.jpg" class="img-bike8"></a>
+      </div>
+      <hr>
+    </div>
+    <div class="gallery">
+      <h1 class="h1" align="center">Egnite Images</h1>
+      <div class="egnite">
+      <a href="Images\egnite1.jpg"><img src="Images\egnite1.jpg" class="img-bike1"></a>
+      <a href="Images\egnite2.jpg"><img src="Images\egnite2.jpg" class="img-bike2"></a>
+      <a href="Images\egnite3.jpg"><img src="Images\egnite3.jpg" class="img-bike3"></a>
+      <a href="Images\egnite4.jpg"><img src="Images\egnite4.jpg" class="img-bike4"></a>
+      <a href="Images\egnite5.jpg"><img src="Images\egnite5.jpg" class="img-bike5"></a>
+      <a href="Images\egnite6.jpg"><img src="Images\egnite6.jpg" class="img-bike6"></a>
+      <a href="Images\egnite7.jpg"><img src="Images\egnite7.jpg" class="img-bike7"></a>
+      <a href="Images\egnite8.jpg"><img src="Images\egnite8.jpg" class="img-bike8"></a>
+      </div>
+      <hr>
+    </div>
+    <div class="gallery">
+      <h1 class="h1" align="center">Etrance Images</h1>
+      <div class="etrance">
+      <a href="Images\etrance1.jpg"><img src="Images\etrance1.jpg" class="img-bike1"></a>
+      <a href="Images\etrance2.jpg"><img src="Images\etrance2.jpg" class="img-bike2"></a>
+      <a href="Images\etrance3.jpg"><img src="Images\etrance3.jpg" class="img-bike3"></a>
+      <a href="Images\etrance4.jpg"><img src="Images\etrance4.jpg" class="img-bike4"></a>
+      <a href="Images\etrance5.jpg"><img src="Images\etrance5.jpg" class="img-bike5"></a>
+      <a href="Images\etrance6.jpg"><img src="Images\etrance6.jpg" class="img-bike6"></a>
+      <a href="Images\etrance7.jpg"><img src="Images\etrance7.jpg" class="img-bike7"></a>
+      <a href="Images\etrance8.jpg"><img src="Images\etrance8.jpg" class="img-bike8"></a>
+      </div>
+      <hr>
+    </div>
+    <div class="gallery">
+      <h1 class="h1" align="center">EPluto Images</h1>
+      <div class="epluto">
+        <a href="Images\epluto1.jpg"><img src="Images\epluto1.jpg" class="img-bike1"></a>
+        <a href="Images\epluto2.jpg"><img src="Images\epluto2.jpg" class="img-bike2"></a>
+        <a href="Images\epluto3.jpg"><img src="Images\epluto3.jpg" class="img-bike3"></a>
+        <a href="Images\epluto4.jpg"><img src="Images\epluto4.jpg" class="img-bike4"></a>
+        <a href="Images\epluto5.jpg"><img src="Images\epluto5.jpg" class="img-bike5"></a>
+        <a href="Images\epluto6.jpg"><img src="Images\epluto6.jpg" class="img-bike6"></a>
+        <a href="Images\epluto7.jpg"><img src="Images\epluto7.jpg" class="img-bike7"></a>
+        <a href="Images\epluto8.jpg"><img src="Images\epluto8.jpg" class="img-bike8"></a>
+      </div>
+      <hr>
+    </div>
+  </center>
+</body>
+</html>
